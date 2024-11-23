@@ -5,12 +5,12 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { href: "#", label: "Demos", active: true },
+    { href: "#", label: "Home" },
     { href: "#jobs", label: "Find Jobs" },
+    { href: "#categories", label: "Categories" },
+    { href: "#job-seekers", label: "For Job Seekers" },
     { href: "#companies", label: "Companies" },
-    { href: "#candidates", label: "Candidates" },
     { href: "#blog", label: "Blog" },
-    { href: "#pages", label: "Pages" },
   ];
 
   return (
@@ -27,7 +27,7 @@ const Navbar = () => {
               <a
                 key={link.label}
                 href={link.href}
-                className={`nav-link ${link.active ? "active" : ""}`}
+                className="nav-link"
               >
                 {link.label}
               </a>
@@ -56,7 +56,7 @@ const Navbar = () => {
               <a
                 key={link.label}
                 href={link.href}
-                className={`block py-2 nav-link ${link.active ? "active" : ""}`}
+                className="block py-2 nav-link"
                 onClick={() => setIsOpen(false)}
               >
                 {link.label}

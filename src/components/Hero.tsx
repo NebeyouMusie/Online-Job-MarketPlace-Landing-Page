@@ -62,18 +62,6 @@ const Hero = () => {
                 alt="Professional"
                 className="rounded-2xl object-cover h-[600px] w-full"
               />
-              <div className="absolute -right-4 top-1/4 bg-white p-4 rounded-lg shadow-lg animate-fade-in">
-                <p className="font-semibold text-lg">319</p>
-                <p className="text-secondary-light text-sm">job offers</p>
-              </div>
-              <div className="absolute -right-8 top-1/2 bg-white p-4 rounded-lg shadow-lg animate-fade-in delay-100">
-                <p className="font-semibold text-lg">265</p>
-                <p className="text-secondary-light text-sm">job offers</p>
-              </div>
-              <div className="absolute -right-4 top-3/4 bg-white p-4 rounded-lg shadow-lg animate-fade-in delay-200">
-                <p className="font-semibold text-lg">324</p>
-                <p className="text-secondary-light text-sm">job offers</p>
-              </div>
             </div>
           </div>
         </div>
